@@ -1,0 +1,1 @@
+{"name":"Local: Solution","url":"/Users/Shared/Visual Studio Code/BinaryLifting/Solution.cpp","tests":[{"id":1729428346561,"input":"7 3\n1 2\n1 3\n2 4\n2 5\n3 6\n3 7\n4 5 0\n4 6 7\n1 7 7","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/Shared/Visual Studio Code/BinaryLifting/Solution.cpp","group":"local","local":true}
