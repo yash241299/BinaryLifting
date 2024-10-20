@@ -77,7 +77,7 @@ int main() {
 
     int n, q;
     cin >> n >> q;
-
+    //cout << n << " " << q;
     // Input the tree
     for (int i = 1; i <= n - 1; i++) {
         int u, v;
@@ -92,10 +92,10 @@ int main() {
     // Run DFS to initialize parent, depth, and XOR arrays
     dfs(1, -1, 1);  // Start DFS from node 1, with XOR = 1 (or any arbitrary XOR)
 
-    // Preprocess LCA for binary lifting
+    // Preprocess LCA for binary lifting for O(log n) query time
     preprocessLCA(n);
 
-    // Handle each query
+    // Handling each query
     while (q--) {
         int u, v, k;
         cin >> u >> v >> k;
